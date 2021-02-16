@@ -84,7 +84,7 @@ const Jobs = () => {
             </p>
             <div className="">
               <span className="text">Lagos</span>
-              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+              <span className="text" style={{ fontWeight:"bold", fontSize: 20 + "px", margin: 0 }}>
                 {" "}
                 .{" "}
               </span>
@@ -121,7 +121,7 @@ const Jobs = () => {
             </p>
             <div className="">
               <span className="text">Lagos</span>
-              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+              <span className="text" style={{ fontWeight:"bold", fontSize: 20 + "px", margin: 0 }}>
                 {" "}
                 .{" "}
               </span>
@@ -147,7 +147,7 @@ const Jobs = () => {
             <p className="title">{items[2].role}</p>
             <div className="">
               <span className="text">Lagos</span>
-              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+              <span className="text" style={{ fontWeight:"bold", fontSize: 20 + "px", margin: 0 }}>
                 {" "}
                 .{" "}
               </span>
@@ -168,7 +168,7 @@ const Jobs = () => {
             <p className="title">{items[3].role}</p>
             <div className="">
               <span className="text">Lagos</span>
-              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+              <span className="text" style={{ fontWeight:"bold", fontSize: 20 + "px", margin: 0 }}>
                 {" "}
                 .{" "}
               </span>
@@ -191,7 +191,7 @@ const Jobs = () => {
             </p>
             <div className="">
               <span className="text">Lagos</span>
-              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+              <span className="text" style={{ fontWeight:"bold", fontSize: 20 + "px", margin: 0 }}>
                 {" "}
                 .{" "}
               </span>
@@ -218,7 +218,7 @@ const Jobs = () => {
             </p>
             <div className="">
               <span className="text">Lagos</span>
-              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+              <span className="text" style={{ fontWeight:"bold", fontSize: 20 + "px", margin: 0 }}>
                 {" "}
                 .{" "}
               </span>
@@ -244,7 +244,7 @@ const Jobs = () => {
             <p className="title">{items[6].role} </p>
             <div className="">
               <span className="text">Lagos</span>
-              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+              <span className="text" style={{ fontWeight:"bold", fontSize: 20 + "px", margin: 0 }}>
                 {" "}
                 .{" "}
               </span>
@@ -270,7 +270,7 @@ const Jobs = () => {
             <p className="title">{items[7].role} </p>
             <div className="">
               <span className="text">Lagos</span>
-              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+              <span className="text" style={{ fontWeight:"bold", fontSize: 20 + "px", margin: 0 }}>
                 {" "}
                 .{" "}
               </span>
