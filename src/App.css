@@ -40,7 +40,7 @@
   justify-content: center;
   align-items: center;
   font-size: 14px;
-  font-family: 'Grotesk';
+  font-family: "Grotesk";
   font-weight: 400;
   /* line-height: 17px; */
   color: #222;
@@ -83,7 +83,7 @@
 }
 .container .text {
   padding-bottom: 80px;
-    font-family: 'Grotesk-light', sans-serif;
+  font-family: "Grotesk-light", sans-serif;
   font-size: 24px;
   line-height: 32px;
   color: #222222;
@@ -125,7 +125,7 @@
 }
 .jobs .container {
   width: 100%;
-  overflow:hidden;
+  overflow: hidden;
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
@@ -167,8 +167,8 @@
 .card .title {
   font-weight: normal;
   font-size: 24px;
-    /* font-family: 'Grotesk-light', sans-serif; */
-    /* margin-right: 50px; */
+  /* font-family: 'Grotesk-light', sans-serif; */
+  /* margin-right: 50px; */
   line-height: 32px;
   color: rgba(0, 0, 0, 0.87);
   margin: 0 0 24px 0;
@@ -199,7 +199,9 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 14px;
-  color: rgba(0, 0, 0, 0.6);
+  font-family: "Grotesk", sans-serif;
+  color: rgba(0, 0, 0, 0.6) !important;
+  opacity: 60%;
   margin-bottom: 0;
 }
 
@@ -280,13 +282,12 @@
   border-right: 1px solid #ddd;
 }
 .input-group > div:not(:last-child) {
-    padding-left: 27px;
-
+  padding-left: 27px;
 }
 .input-group > div {
   display: table-cell;
   /* border: 1px solid #ddd; */
-  vertical-align: middle;  /* needed for Safari */
+  vertical-align: middle; /* needed for Safari */
   height: 80px;
 }
 .input-group-icon .searchButton {
@@ -302,7 +303,7 @@
 .input-group-icon {
   background: var(--primary);
   width: 212px;
-    border-radius: 0px 6px 6px 0px;
+  border-radius: 0px 6px 6px 0px;
   /* padding: 0 12px; */
 }
 w-auto {
@@ -324,10 +325,10 @@ w-auto {
   height: 64px;
   padding: 8px 0 8px 0;
 }
-input:focus{
+input:focus {
   outline: none;
 }
-input[type = "text"]{
+input[type="text"] {
   font-size: 16px;
 }
 .input-group input::placeholder {
