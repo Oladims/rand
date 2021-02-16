@@ -1,6 +1,6 @@
 import Heading from "./Heading";
 import Card from "./Card";
-import gtbank from "../icons/gtbank.svg";
+import sc from "../icons/sc.svg";
 import interswitch from "../icons/interswitch.svg";
 import airtel from "../icons/airtel.svg";
 import paystack from "../icons/paystack.svg";
@@ -77,7 +77,34 @@ const Jobs = () => {
     <div className="jobs">
       <Heading text="Recent jobs" />
       <div className="container">
-        {items.map((item) => (
+        <div className="card">
+          <div className="">
+            <p className="title">
+              VR Experience <br /> Designer
+            </p>
+            <div className="">
+              <span className="text">Lagos</span>
+              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+                {" "}
+                .{" "}
+              </span>
+              <span className="text">{items[0].type}</span>
+            </div>
+          </div>
+          <div className="">
+            <div className="logoSection">
+              <img
+                src={items[0].logo}
+                height="21"
+                className=""
+                alt="image of people laughing"
+              />
+              <p className="companyName">{items[0].name}</p>
+            </div>
+            <p className="time">{items[0].time}</p>
+          </div>
+        </div>
+        {/* {items.map((item) => (
           <Card
             role={item.role}
             location={item.location}
@@ -86,9 +113,187 @@ const Jobs = () => {
             name={item.name}
             time={item.time}
           />
-        ))}
+        ))} */}
+        <div className="card">
+          <div className="">
+            <p className="title">
+              Senior Product <br /> Designer{" "}
+            </p>
+            <div className="">
+              <span className="text">Lagos</span>
+              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+                {" "}
+                .{" "}
+              </span>
+              <span className="text">{items[1].type}</span>
+            </div>
+          </div>
+          <div className="">
+            <div className="logoSection">
+              <img
+                src={items[1].logo}
+                height="21"
+                className=""
+                alt="image of people laughing"
+              />
+              <p className="companyName">{items[1].name}</p>
+            </div>
+            <p className="time">{items[1].time}</p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="">
+            <p className="title">{items[2].role}</p>
+            <div className="">
+              <span className="text">Lagos</span>
+              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+                {" "}
+                .{" "}
+              </span>
+              <span className="text">{items[2].type}</span>
+            </div>
+          </div>
+          <div className="">
+            <div className="logoSection">
+              <img src={items[2].logo} height="21" className="" alt="" />
+              <p className="companyName">{items[2].name}</p>
+            </div>
+            <p className="time">{items[2].time}</p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="">
+            <p className="title">{items[3].role}</p>
+            <div className="">
+              <span className="text">Lagos</span>
+              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+                {" "}
+                .{" "}
+              </span>
+              <span className="text">{items[3].type}</span>
+            </div>
+          </div>
+          <div className="">
+            <div className="logoSection">
+              <img src={items[3].logo} height="21" className="" alt="" />
+              <p className="companyName">{items[3].name}</p>
+            </div>
+            <p className="time">{items[3].time}</p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="">
+            <p className="title">
+              Visual Experience <br /> Designer
+            </p>
+            <div className="">
+              <span className="text">Lagos</span>
+              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+                {" "}
+                .{" "}
+              </span>
+              <span className="text">{items[4].type}</span>
+            </div>
+          </div>
+          <div className="">
+            <div className="logoSection">
+              <img
+                src={items[4].logo}
+                height="21"
+                className=""
+                alt="image of people laughing"
+              />
+              <p className="companyName">{items[4].name}</p>
+            </div>
+            <p className="time">{items[4].time}</p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="">
+            <p className="title">
+              Senior Product <br /> Designer{" "}
+            </p>
+            <div className="">
+              <span className="text">Lagos</span>
+              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+                {" "}
+                .{" "}
+              </span>
+              <span className="text">{items[5].type}</span>
+            </div>
+          </div>
+          <div className="">
+            <div className="logoSection">
+              <img
+                src={items[5].logo}
+                height="21"
+                className=""
+                alt="image of people laughing"
+              />
+              <p className="companyName">{items[5].name}</p>
+            </div>
+            <p className="time">{items[5].time}</p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="">
+            <p className="title">{items[6].role} </p>
+            <div className="">
+              <span className="text">Lagos</span>
+              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+                {" "}
+                .{" "}
+              </span>
+              <span className="text">{items[6].type}</span>
+            </div>
+          </div>
+          <div className="">
+            <div className="logoSection">
+              <img
+                src={items[6].logo}
+                height="21"
+                className=""
+                alt="image of people laughing"
+              />
+              <p className="companyName">{items[6].name}</p>
+            </div>
+            <p className="time">{items[6].time}</p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="">
+            <p className="title">{items[7].role} </p>
+            <div className="">
+              <span className="text">Lagos</span>
+              <span className="text" style={{ fontSize: 20 + "px", margin: 0 }}>
+                {" "}
+                .{" "}
+              </span>
+              <span className="text">{items[7].type}</span>
+            </div>
+          </div>
+          <div className="">
+            <div className="logoSection">
+              <img
+                src={items[7].logo}
+                height="21"
+                className=""
+                alt="image of people laughing"
+              />
+              <p className="companyName">{items[7].name}</p>
+            </div>
+            <p className="time">{items[7].time}</p>
+          </div>
+        </div>
       </div>
-      <div className="centralize"><button className="allJobsBtn">Show All Jobs</button></div>
+      <div className="centralize">
+        <button className="allJobsBtn">Show All Jobs</button>
+      </div>
     </div>
   );
 };

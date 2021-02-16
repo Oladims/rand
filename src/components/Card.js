@@ -11,7 +11,7 @@ const Card = ({role, location, type, name, logo, time}) => {
       </div>
       <div className="">
         <div className="logoSection">
-          <img src={logo} height="21"  className="image" alt="image of people laughing" />
+          <img src={logo} height="21"  className="" alt="image of people laughing" />
           <p className="companyName">{name}</p>
         </div>
         <p className="time">{time}</p>
