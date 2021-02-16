@@ -1,13 +1,22 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Grotesk', sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Grotesk';
+  src: local('Grotesk'), url(./fonts/NeueHaasDisplay-Mediu.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Grotesk-bold';
+  src: local('Grotesk'), url(./fonts/NeueHaasDisplay-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Grotesk-light';
+  src: local('Grotesk'), url(./fonts/NeueHaasDisplay-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Grotesk-thin';
+  src: local('Grotesk'), url(./fonts/NeueHaasDisplay-Thin.ttf) format('truetype');
 }
